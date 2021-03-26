@@ -9,7 +9,7 @@
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
 }
-.product{
+.nolink{
   border: none;
   background-color: whitesmoke;
   color: rgb(81, 71, 136);
@@ -19,7 +19,7 @@
   padding-left: 10px;
   cursor: pointer;
 }
-.product:hover{
+.nolink:hover{
   background-color: whitesmoke !important;
   color: rgb(81, 71, 136) !important;
 }
@@ -50,11 +50,47 @@
 .wrapper .sidebar .detail {
   margin-left: 30px;
 }
-.contact{
+.mediafraction{
   font-size: 15px;
   padding-left: 10px;
   margin-bottom: 0px;
+  cursor: context-menu;
 }
+.welcome{
+  cursor: context-menu;
+  margin-top: -3px;
+}
+#topselling{
+  margin-left: 50%;
+}
+#khung{
+  margin-left: 41.3%;
+}
+.khungproduct{
+  margin-left: 300px !important;
+  border-width: 5px;
+  border-color: rgb(255, 230, 148);
+  border-style: outset;
+}
+.cardbody{
+  color: rgb(81, 71, 136);
+  color: black;
+}
+.cardbody:hover{
+  text-decoration: none;
+  color: black;
+}
+.imageborder{
+  border-bottom:5px solid;
+  border-color: rgb(255, 230, 148);
+}
+.inline { 
+  display: inline-block; 
+  margin-left: 80px;
+  border-width: 5px;
+  border-color: rgb(255, 230, 148);
+  border-style: outset;
+  }
 body{
     background-color: white;
 }
