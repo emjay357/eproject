@@ -10,7 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./dropdown.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./productinfo.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
@@ -52,15 +53,15 @@
     <img src="./image/khung.jpg" alt="" id="khung">
 </div><br><br>
 <div>
-    <div class="card khungproduct inline" style="width: 300px;">
+    <div class="card khungproduct inline" style="width: 298px;">
         <img class="card-img-top imageborder" src="./image/topselling1.jpg" usemap="#productmap">
-            <a href="#" class="cardbody">
+            <a href="./product.html" class="cardbody" onclick="return product(fanname)">
                <h5>Quạt mini để bàn 4 chế độ làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
             </a>
       </div>
       <div class="card inline" style="width: 300px;">
         <img class="card-img-top imageborder" src="./image/topselling2.jpg" usemap="#productmap">
-            <a href="#" class="cardbody">
+        <a href="./product.html" class="cardbody" onclick="product(airconditer)">
                <h5>Quạt mini để bàn 4 làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
             </a>
       </div>
@@ -86,8 +87,12 @@
             </a>
       </div>
 </div>
+<hr style="border-width: 2.5px;">
+<p style="margin-left: 300px;">Fan</p>
   <map name="productmap">
-      <area shape="rect" coords="0,0,500,500" href="#">
+      <area shape="rect" coords="0,0,500,500" href="./product.html">
   </map>
+    <div class="container-fluid navbar navbar-expand-md navbar-dark bg-dark sticky-bottom" style="height: 20px;">
+    </div>
 </body>
 </html>
